@@ -1,0 +1,63 @@
+name: ohs_app
+description: "A Construction project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_svg: ^2.0.17
+  charts_flutter: ^0.12.0
+  fl_chart: ^0.70.2
+  syncfusion_flutter_charts: ^21.2.4
+  # Remove the duplicate flutter_launcher_icons here
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/app_logo.png"
+  min_sdk_android: 21  # Android min sdk min:16, default 21
+  background_color: "#045D61"  # Optional, set a background color
+
+flutter:
+  uses-material-design: true
+
+  assets:
+     - assets/file icon.png
+     - assets/icon.png
+     - assets/notification.png
+     - assets/user.png
+     - assets/home_filled.png
+     - assets/home_unfilled.png
+     - assets/main_image.png
+     - assets/calander_filled.png
+     - assets/calander_unfilled.png
+     - assets/sheets_filled.png
+     - assets/sheets_unfilled.png
+     - assets/explore_unfilled.png
+     - assets/explore_filled.png
+     - assets/notification_image.png
+     - assets/Splash Screen.png
+     - assets/App Logo.png
+     - assets/User Icon.png
+     - assets/Lock Icon.png
+     - assets/Email Icon.png
+     - assets/app_logo.png
+     - assets/logo.png
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
